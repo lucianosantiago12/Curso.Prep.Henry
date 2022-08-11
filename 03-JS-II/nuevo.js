@@ -3,6 +3,5 @@ function resta(x, y) {
     // Tu código:
     a = 8
     y = 3
-    resta (x-y);
+    resta(x-y);
   }
-  

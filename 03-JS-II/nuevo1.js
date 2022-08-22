@@ -1,11 +1,28 @@
-   
-  function  tieneTresDigitos(numero){
- 
-    if (numero = 99, numero >1000){
-      return true;
-    } else{
-      false
+
+
+  /*function doWhile(numero1) {
+    let numero1 = a;
+    let i = 0;
+    do {
+      i = i + 1;
+      a = a + 5;
     }
+    while(i < 8);
+    return a;
+
   }
-  console.log(tieneTresDigitos());
+  console.log(numero1())*/
+
+function doWhile(num){
+let num = 5;
+let i = 0;
+
+do {
+  i = i + 1;
+  num = num + i;
+} 
+while (i < 8);
+}
+
+console.log(num);
  
